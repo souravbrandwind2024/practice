@@ -181,6 +181,50 @@
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  .accordion .card .card-header.collapsed{
+    
+  }
+  .faq-area h3{
+    padding: 15px;
+    font-size: 15px;
+  }
+  .widget-area .post .post-inner ul li:nth-child(1) {
+    flex: 0 0 35%;
+    max-width: 35%;
+}
+  .widget-area .widget-item span a{
+    font-size: 13px;
+  }
+  .blog-area .blog-main .blog-info .blog-header h3{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .blog-area .blog-main .blog-info{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .blog-area .blog-main .blog-info img{
+    height: 160px;
+  }
+  .blog-area .top-header h3{
+    font-size: 16px;
+  }
+  .youtube-video-area iframe{
+    height: 181px;
+  }
+  .products-area .button-area-new{
+    margin-top: 26px;
+  }
+  .cstm-btn-new{
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+  .shop-category .button-area{
+    margin-top: 20px;
+  }
+  .shop-category .category-listing .category-info{
+    width: 100px;
+  }
   .it-footer-social a img {
     width: 12px;
     height: 12px;
@@ -261,10 +305,11 @@
         font-size: 13px;
     }
     .shop-category .category-box p{
-        font-size: 14px;
+      font-size: 13px;
+      line-height: 22px;
     }
     .shop-category .category-box img{
-        height: 195px;
+        height: 93px;
     }
     .swiper-button-next{
         display: none;

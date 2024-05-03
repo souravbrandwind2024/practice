@@ -662,7 +662,7 @@ background-color: #275d43;
   padding: 0;
 }
 .accordion {
-  width: 1007px;
+  /* width: 1007px; */
   margin: 0 auto;
 }
 .accordion .card {
@@ -676,7 +676,7 @@ background-color: #275d43;
   font-size: 25px;
 }
 .accordion .card .card-header {
-  color: #000 !important;
+  color: #275d43 !important;
   background-color: transparent;
   margin-top: 12px;
   border: none;
@@ -684,7 +684,7 @@ background-color: #275d43;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   padding-left: 8px;
-  border-bottom: 1px solid #a39b9b;
+  border-bottom: 1px solid #a39b9bb3;
 }
 .accordion .card .card-header:after {
   font-family: "Line Awesome Free";
@@ -727,10 +727,11 @@ background-color: #275d43;
 }
 .faq-area h3{
   background-color: #275d43;
-  padding: 26px;
+  padding: 26px 88px 26px 152px;
   text-transform: capitalize;
   font-size: 25px;
   color: #fff;
+  letter-spacing: 0.5px;
 }
 /* ----- home-faq-area-end ------- */
 
@@ -1296,3 +1297,147 @@ background-color: #275d43;
   height: 700px;
 }
 /* ----- youtube-area-end ------- */
+
+/* ----- blog-area-start ------- */
+.blog-area{
+  width: 100%;
+  position: relative;
+}
+.blog-area .blog-main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blog-area .blog-main .blog-info{
+  width: 298px;
+  position: relative;
+  transition: all 0.7s ease;
+}
+.blog-area .blog-main .blog-info:hover{
+  transform: translateY(-12px);
+}
+.blog-area .blog-main .blog-info img{
+  width: 100%;
+  height: 216px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.blog-area .blog-main .blog-info .blog-header{
+  margin-top: 14px;
+}
+.blog-area .blog-main .blog-info .blog-header h3{
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 2px;
+}
+.blog-area .blog-main .blog-info .blog-header h3 a{
+  font-weight: 600;
+}
+.blog-area .blog-main .blog-info .blog-header span{
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+}
+
+
+.blog-details-area .widget-area .widget-item {
+  margin-bottom: 20px;
+}
+.blog-details-area .widget-area .widget-item h3 {
+  font-size: 19px;
+  margin-bottom: 21px;
+  border-bottom: 1px solid #63605f;
+  padding-bottom: 9px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.widget-area .post .post-inner {
+  padding: 10px;
+  border-radius: 5px;
+}
+.widget-area .post .post-inner:last-child {
+  margin-bottom: 0;
+}
+.widget-area .post .post-inner ul {
+  display: flex;
+  margin-bottom: 0;
+  border-bottom: 1px dashed #66666669;
+  padding-bottom: 12px;
+  overflow: hidden;
+}
+.widget-area .post .post-inner ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.widget-area .post .post-inner ul li img {
+  width: 100%;
+  border-radius: 5px;
+  height: 78px;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+.widget-area .post .post-inner ul li img:hover {
+  transform: scale(1.01);
+}
+.widget-area .post .post-inner ul li:nth-child(1) {
+  flex: 0 0 28%;
+  max-width: 28%;
+}
+.widget-area .post .post-inner ul li:nth-child(2) {
+  flex: 0 0 67%;
+  max-width: 67%;
+  margin-left: 15px;
+}
+.widget-area .post .post-inner ul li h4 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  line-height: 19px;
+}
+.widget-area .post .post-inner ul li h4 a {
+  transition: 0.4s;
+  color: #0c0505;
+  font-weight: 500;
+  line-height: 22px;
+}
+.widget-area .post .post-inner ul li h4 a:hover {
+  color: #275d43;
+}
+.widget-area .post .post-inner ul li p {
+  margin-bottom: 0;
+  font-size: 13px;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+.widget-area .post .post-inner ul li p a {
+  transition: 0.4s;
+  display: inline-block;
+  color: #757575;
+}
+.widget-area .post .post-inner ul li p a:hover {
+  color: #275d43;
+}
+.widget-area .widget-item span{
+  display: flex;
+  justify-content: flex-end;
+}
+.widget-area .widget-item span a{
+  color: #275d43;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.blog-area .top-header h3{
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+/* ----- blog-area-end ------- */
+.doctor-banner img{
+  width: 100%;
+  height: 100%;
+}
+
+.inner-area{
+  width: 100%;
+  position: relative;
+}
